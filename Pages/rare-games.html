@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <style>
+        body {
+            background-image: url("../assets/493402.png");
+            color: #0c0909;
+                background-position: center top;
+                background-size: cover;
+                background-repeat: no-repeat;
+        }
+
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .pixel {
+        
+      }
+
+      .title{
+        font-weight: bold;        
+      }
+
+      .tabelaright{
+        text-align: right;
+      }
+
+      .thead1{
+        text-align: center;
+        margin-left: 60px;
+      }
+
+      .tabela1{
+        margin-left: 10%;;
+        padding: 100px;
+      }
+
+      .tabelaright{
+        padding-left: 100px;
+      }
+
+      .tabelaleft:hover {
+        color: rgba(253, 195, 86, 0.664);
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),
+               1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);;
+      }
+
+      .tabelaright:hover {
+        color: rgba(253, 195, 86, 0.664);
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),
+               1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);;
+              }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <div class="title">
+            <span class="fs-4" >Final Fantasy XII Mini Wiki</span>
+            </div>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Equipment</a></li>
+            <li class="nav-item"><a href="rare-games.html" class="nav-link">Rare Games</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Placeholder</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Placeholder</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="rare game list">
+        <table class="tabela1">
+          <thead class="thead1">
+            <tr>
+              <th colspan="2" class="thead1" style="align: center;">Rare Games</th>
+            </tr>
+          </head>
+          <tbody>
+            <tr>
+              <td class="tabelaleft">Aspidochelon</td>
+              <td class="tabelaright">Thalassinon</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Greeden</td>
+              <td class="tabelaright">Bull Croc</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Gavial</td>
+              <td class="tabelaright">Wary Wolf</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Kaiser Wolf</td>
+              <td class="tabelaright">Lindbur Wolf</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Dreadguard</td>
+              <td class="tabelaright">Crypt Bunny</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Spee</td>
+              <td class="tabelaright">Rain Dancer</td>
+            </tr>            
+            <tr>
+              <td class="tabelaleft">Razorfin</td>
+              <td class="tabelaright">Apsara</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Rageclaw</td>
+              <td class="tabelaright">Biding Mantis</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Wood Toad</td>
+              <td class="tabelaright">Tarasque</td>
+            </tr>            
+            <tr>
+              <td class="tabelaleft">Grimalkin</td>
+              <td class="tabelaright">Nekhbet</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Glaring Eye</td>
+              <td class="tabelaright">Cultsword Lich</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Evil Spirit</td>
+              <td class="tabelaright">Juggernaut</td>
+            </tr>            
+            <tr>
+              <td class="tabelaleft">Molen</td>
+              <td class="tabelaright">Tower</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Grey Molter</td>
+              <td class="tabelaright">Midgardsormr</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Nazarnir</td>
+              <td class="tabelaright">Victanir</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Gemhorn</td>
+              <td class="tabelaright">Luxollid</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Vagrant Soul</td>
+              <td class="tabelaright">Imdugud</td>
+            </tr>            
+            <tr>
+              <td class="tabelaleft">Bull Chocobo</td>
+              <td class="tabelaright">Skullash</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Myath</td>
+              <td class="tabelaright">Helvinek</td>
+            </tr>
+            <tr>
+              <td class="tabelaleft">Pallicant</td>
+              <td class="tabelaright">Phyllo</td>
+            </tr>
+            <td class="tabelaleft">Aerieel</td>
+            <td class="tabelaright">Anubys</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Barmuu</td>
+            <td class="tabelaright">Vishno</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Etherian</td>
+            <td class="tabelaright">Melt</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Cubus</td>
+            <td class="tabelaright">Pineapple</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Bombshell</td>
+            <td class="tabelaright">Megabomb</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Matriarch Bomb</td>
+            <td class="tabelaright">Ripe Rampager</td>
+          </tr>            
+          <tr>
+            <td class="tabelaleft">Killbug</td>
+            <td class="tabelaright">Minibug</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Ithuno</td>
+            <td class="tabelaright">Kris</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Dheed</td>
+            <td class="tabelaright">Aeros</td>
+          </tr>            
+          <tr>
+            <td class="tabelaleft">Terror Tyrant</td>
+            <td class="tabelaright">Abelisk</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Dustia</td>
+            <td class="tabelaright">Ishteen</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Vorres</td>
+            <td class="tabelaright">Negalmuur</td>
+          </tr>            
+          <tr>
+            <td class="tabelaleft">Larva Eater</td>
+            <td class="tabelaright">Arioch</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Fideliant</td>
+            <td class="tabelaright">Crystal Knight</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Grave Lord</td>
+            <td class="tabelaright">Zombie Lord</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Drowned</td>
+            <td class="tabelaright">Velelu</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Disma</td>
+            <td class="tabelaright">Ancbolder</td>
+          </tr>            
+          <tr>
+            <td class="tabelaleft">Wendice</td>
+            <td class="tabelaright">Anchag</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Bluesang</td>
+            <td class="tabelaright">Avenger</td>
+          </tr>
+          <tr>
+            <td class="tabelaleft">Alteci</td>
+            <td class="tabelaright">Urutan Exile</td>
+          </tr>
+               
+            
+              </tbody>
+      </table>
+
+
+
+
+
+
+      </div>
+
+
+
+</body>
+</html>
